@@ -12,6 +12,12 @@
     "replace": {
         "miniflux/picofeed": "0.1.35"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Onouriis/laminas-xml"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "ext-iconv": "*",
@@ -19,7 +25,7 @@
         "ext-xml": "*",
         "ext-libxml": "*",
         "ext-SimpleXML": "*",
-        "laminas/laminas-xml": "^1.2"
+        "laminas/laminas-xml": "^1.8"
     },
     "require-dev" : {
         "phpdocumentor/reflection-docblock": "2.0.4",
